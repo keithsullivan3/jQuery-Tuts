@@ -1,0 +1,220 @@
+﻿body
+{
+    margin: 0 auto;
+    padding:0px 75px 0 75px;
+    /*background:background-image: linear-gradient(bottom, rgb(228,229,240) 28%, rgb(119,145,224) 73%, rgb(36,56,240) 87%);
+    background-image: -o-linear-gradient(bottom, rgb(228,229,240) 28%, rgb(119,145,224) 73%, rgb(36,56,240) 87%);
+    background-image: -moz-linear-gradient(bottom, rgb(228,229,240) 28%, rgb(119,145,224) 73%, rgb(36,56,240) 87%);
+    background-image: -webkit-linear-gradient(bottom, rgb(228,229,240) 28%, rgb(119,145,224) 73%, rgb(36,56,240) 87%);
+    background-image: -ms-linear-gradient(bottom, rgb(228,229,240) 28%, rgb(119,145,224) 73%, rgb(36,56,240) 87%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.28, rgb(228,229,240)),
+        color-stop(0.73, rgb(119,145,224)),
+        color-stop(0.87, rgb(36,56,240))
+);   */
+}
+
+#container
+{
+    background-color: Yellow; 
+    height: 100px;
+    width: 300px;   
+}
+
+#container2
+{ 
+    height: 100px;
+    width: 500px;  
+}
+
+#container3
+{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+#pToolTip
+{
+    position: absolute;
+    background-color: #fc6c02;
+    display: none;
+    border-top-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+}
+
+#div1
+{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: Green;    
+}
+
+#div2
+{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: Red;
+    position: relative;    
+}
+
+#div3
+{
+    float: left;
+    height: 100px;
+    width: 100px;   
+}
+
+#div4
+{
+    float: left;
+    height: 100px;
+    width: 100px; 
+    background-color: Red;  
+}
+
+#div5
+{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: Blue;   
+}
+
+#div6
+{
+    float: left;
+    height: 100px;
+    width: 100px;
+    background-color: Green;   
+}
+
+#div7
+{
+    float: left;
+    height: 100px;
+    width: 100px; 
+    background-color: Yellow;  
+}
+
+#div8
+{
+    float: left;
+    height: 100px;
+    width: 100px; 
+    background-color: Black;  
+}
+
+#divp
+{
+    display: block;
+    float: left;    
+}
+
+#pic1
+{
+    width: 170px;
+    height: 251px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 1em;
+}
+
+#largeImage
+{
+    position: absolute;
+    padding: .5em;
+    background: #e3e3e3;
+    border: 1px solid #bfbfbf;    
+}
+
+.alert
+{
+    color: Red;    
+}
+
+.toggle
+{
+    background-color: Blue;    
+}
+
+.img
+{
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+#nav li 
+{
+	list-style:none;
+	margin:0;
+	display:block;
+}
+
+#nav li a 
+{    
+	display:block;
+	padding:6px 6px 6px 12px;
+	border-left:4px #ddd solid;
+	background:#e5e5e5;
+	font-size:110%;
+	color:#666;
+	text-decoration:none;
+}
+
+#nav li a:hover 
+{
+	color:#222;
+	background:#d5d5d5;
+	border-left-color:#ccc;
+}
+
+a:focus 
+{
+	outline: none;	
+}
+
+#panel 
+{
+	background: #43beb7;
+	height: 100px;
+	width: 50%;
+	margin: auto;
+	display: none;
+	text-align: center;
+}
+
+.slide 
+{
+	margin: auto;
+	padding: 0;
+	width: 50%;
+	border-top: solid 4px black;
+	background: url(images/btn-slide.gif) no-repeat center top;
+}
+
+.btn-slide 
+{
+	background-color: Red;
+	text-align: center;
+	width: 144px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 6px 0 0 0 ;
+	display: block;
+	font: bold 100%/100% Arial, Helvetica, sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.spacer
+{
+    white-space:pre;    
+}

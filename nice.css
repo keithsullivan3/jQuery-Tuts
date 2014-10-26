@@ -1,0 +1,79 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header
+{
+    z-index:-1;
+    position:relative;
+    height:180px;
+    background-image:url(Images/nice/blackandred.jpg);
+}
+
+.menu
+{
+    position:absolute;
+    height:30px;
+    color:#cecdcd;
+    bottom:0px; 
+    margin-left:20px;
+}
+
+#nav li 
+{
+	list-style:none;
+	margin:0px;
+	display:inline;
+}
+
+#nav li a 
+{
+    width:150px;
+    display:block;
+	padding:6px 6px 6px 12px;
+	border-left:4px #e5e5e5 solid;
+	background:#e5e5e5;
+	font-size:110%;
+	color:#667;
+	text-decoration:none;
+}
+
+#nav li a:hover 
+{
+	color:#222;
+	background:#e5e5e5;
+}
+
+a:focus 
+{
+	outline: none;
+}
+
+
+#leftcontent 
+{
+    position:relative;
+    width:200px;
+}
+#centercontent 
+{
+    margin-left: 199px;
+    margin-right:199px;
+    margin-left: 201px;
+    margin-right:201px;
+}
+html>body #centercontent 
+{
+    margin-left: 201px;
+    margin-right:201px;
+}
+#rightcontent 
+{
+    position: absolute;
+    right:10px;
+    top:50px;
+    width:200px;
+}
